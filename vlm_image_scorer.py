@@ -42,7 +42,7 @@ def build_model(model_config: Dict[str, Any]) -> DemoVLM:
     return DemoVLM(name=name)
 
 
-class VLMImageScorer:
+class VLMImageScorer
     def __init__(
         self,
         *,
